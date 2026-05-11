@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { ArrowRight, Bot, BrainCircuit, BriefcaseBusiness, CheckCircle2, ChevronUp, Clock, ExternalLink, GraduationCap, Home, Search, Sparkles, Star, Target, Users } from 'lucide-react';
 import './styles.css';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/courses';
+const API_URL = import.meta.env.VITE_API_URL || 'https://aicademy.up.railway.app/api/courses';
 
 const interestOptions = ['llm', 'rag', 'mcp', 'nlp', 'ml', 'agents', 'fine-tuning', 'automation', 'evaluation', 'responsible ai'];
 const goalOptions = ['learn fundamentals', 'build ai apps', 'ship production systems', 'change career', 'automate work', 'lead ai strategy', 'research', 'increase productivity'];
