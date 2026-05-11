@@ -25,13 +25,19 @@ For deployment, set:
 VITE_API_URL=https://your-backend-url.up.railway.app/api/courses
 ```
 
+For the current AICademy backend deployment, use:
+
+```text
+VITE_API_URL=https://aicademy.up.railway.app/api/courses
+```
+
 ## Railway deployment
 
 Use this repo as a standalone Railway frontend project.
 
 - Build command: `npm install && npm run build`
 - Start command: `npm run preview -- --host 0.0.0.0 --port $PORT`
-- Environment variable: `VITE_API_URL=https://your-backend-url.up.railway.app/api/courses`
+- Environment variable: `VITE_API_URL=https://aicademy.up.railway.app/api/courses`
 
 After Railway gives you the frontend URL, add it to the backend Railway service as:
 
